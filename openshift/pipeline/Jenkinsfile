@@ -1,0 +1,6 @@
+node('nodejs') {
+  stage 'build'
+  openshiftBuild(buildConfig: 'totocabs-api', showBuildLogs: 'true')
+  stage 'deploy'
+  openshiftDeploy(deploymentConfig: 'totocabs-api')
+}
