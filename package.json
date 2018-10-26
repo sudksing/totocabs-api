@@ -16,7 +16,7 @@
     "object-assign":"4.1.0",
     "bluebird": "^3.5.0",
     "xml2js": "^0.4.17",
-    "bcrypt" : "1.0.3",
+    "bcrypt" : "*",
     "jsonwebtoken": "7.3.0",
     "lodash": "*"
   },
